@@ -1,4 +1,4 @@
-  # Persy: Discord Bot
+ # Persy: Discord Bot
         
 
 
@@ -95,8 +95,21 @@
 
 
 
+## Fetching posts from [Reddit](https://www.reddit.com/) using [asyncpraw](https://asyncpraw.readthedocs.io/en/stable/)
 
-## Additional features and fetching posts from [Reddit](https://www.reddit.com/)
+#### 
+
+
+
+
+
+
+
+
+
+
+
+## Some other additional features
 
 
 ### Help!
@@ -112,9 +125,14 @@
 #### Persy can also get recent news using the [GoogleNews](https://pypi.org/project/GoogleNews/) library! The program checks for the right keywords and a '/' before a word the the user wants to get news about (So the bot can recognise what to search for), removes it, and then calls the *get_news* function which uses the word to get recent news from the library! If the user does not include a '/' **before** a word then they are prompted to do so!
 
 
+
 ### Getting [quotes](https://zenquotes.io/), [jokes](https://v2.jokeapi.dev/), [fun facts](https://uselessfacts.jsph.pl/) and the price of [cryptocurrency](https://www.binance.com/en-IN/binance-api) from APIs!
 
-#### 
+
+#### If the program detects the keywords related to these APIs, it calls the corresponding function which returns a joke or a quote e.t.c. If an error has occured the functions return a string informing the user and prompting them to try again
 
 
-    
+
+### Checking for profanity with the [better_profanity](https://pypi.org/project/better-profanity/) library
+
+#### Well, it's definitely not polity to swear at anyone, human or robot, Persy will not tolarate that. The program uses the method **contains_profanity** to check if the user uses impolite words to express themselves and choses a random response from the corresponding *output* in the .json file!
