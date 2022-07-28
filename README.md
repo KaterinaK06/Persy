@@ -30,7 +30,7 @@
 
 ####    ii) Then the program will check if there is the same stemmed word/phrase in the user's input with each list that has the keywords from the .json file and will chose randomly from the corresponding output and     assign the answer in a variable.
    
-###    iii) The process is repeated when the program detects 'persy' in the user's input
+####    iii) The process is repeated when the program detects 'persy' in the user's input
             
 ## The discord.py library
 
