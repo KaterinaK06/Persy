@@ -1,8 +1,8 @@
-    # Persy: Discord Bot
+   # Persy: Discord Bot
         
-    #### Video Demo:  <URL HERE>
+   #### Video Demo:  <URL HERE>
         
-    *Persy was made using the discord.py library.*
+   *Persy was made using the discord.py library.*
 
 
     #### When I first though of making a discord bot for CS50p final project, I wanted it to interact with the users and also entertain them or give them information that they may need! I noticed that most bots on discord used hard-coded commands such as '!help' that have a prefix before them. However, this may be easier to control as it is something specific that will probably not be typed by any user that doesn't want to use the bot. Knowing that, I wanted to make the input more flexible so the user would not have to remember the command or the prefix, which may look cryptic to some individuals, that's why I set up a basic .json file;
