@@ -1,4 +1,4 @@
- # Persy: Discord Bot
+# Persy: Discord Bot
         
 
 
@@ -97,15 +97,8 @@
 
 ## Fetching posts from [Reddit](https://www.reddit.com/) using [asyncpraw](https://asyncpraw.readthedocs.io/en/stable/)
 
-#### 
 
-
-
-
-
-
-
-
+#### Asyncpraw is used to get posts from Reddit in an aynchronous environment. Having no experience with asynchronous programming, I was puzzled at first and used [*praw*](https://praw.readthedocs.io/en/stable/index.html) in a separate function but got an error message that *praw* dooes not support async and I had to use *asyncpraw* instead. Despite all that, it is worth mentioning that the program uses some variables that help it determine the value of the variable 'output' or what message to send. In this case, the variable *image_checker* get the value of *True* only when the specific keywords related to images are detected in the stemmed user's input. Then the program iterates through every popular submissions with a specific limit, checks if the submission is not pinned by a moderator of the subreddit, adds the urls to a list and then choses one to send randomly. Note that the subreddit changes when the user asks for something related to it. For instance, if the user asks for art the subreddit variable will change to 'r/art' and a url from that subreddit will be sent.
 
 
 
@@ -136,3 +129,6 @@
 ### Checking for profanity with the [better_profanity](https://pypi.org/project/better-profanity/) library
 
 #### Well, it's definitely not polity to swear at anyone, human or robot, Persy will not tolarate that. The program uses the method **contains_profanity** to check if the user uses impolite words to express themselves and choses a random response from the corresponding *output* in the .json file!
+
+
+
