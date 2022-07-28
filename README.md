@@ -15,7 +15,7 @@
 
 
 
-#### When I first though of making a discord bot for CS50p final project, I wanted it to interact with the users and also entertain them or give them information that they may need! I noticed that most bots on discord used hard-coded commands such as '!help' that have a prefix before them. However, this may be easier to control as it is something specific that will probably not be typed by any user that doesn't want to use the bot. Knowing that, I wanted to make the input more flexible so the user would not have to remember the command or the prefix, which may look cryptic to some individuals, that's why I set up a basic .json file;
+#### When I first thought of making a discord bot for CS50p final project, I wanted it to interact with the users and also entertain them or give them information that they may need! I noticed that most bots on discord used hard-coded commands such as '!help' that have a prefix before them. However, this may be easier to control as it is something specific that will probably not be typed by any user that doesn't want to use the bot. Knowing that, I wanted to make the input more flexible so the user would not have to remember the command or the prefix, which may look cryptic to some individuals, that's why I set up a basic .json file;
 
     
  
@@ -25,7 +25,7 @@
 ### The words.json file
         
         
-#### In words.json there is a 'keywords' list in each instance, that includes words or phrases that are likely to be typed by the user, all of these words are ***reduced to their root***. Also, there is the 'Output' that includes various hardcoded responses that the bot will randomly chose from in each case. Finally the 'subject' describes the category that the keywords and responses correspond to. Despite the fact that it is not used in the file project.py, it is still useful to add in order to get some basic context.
+#### In words.json there is a 'keywords' list in each instance, that includes words or phrases that are likely to be typed by the user, all of these words are ***reduced to their root***. Also, there is the 'Output' that includes various hardcoded responses that the bot will randomly chose from in each case. Finally, the 'subject' describes the category that the keywords and responses correspond to. Despite the fact that it is not used in the file project.py, it is still useful to add in order to get some basic context.
 
         
 
@@ -128,7 +128,7 @@
 
 ### Checking for profanity with the [better_profanity](https://pypi.org/project/better-profanity/) library
 
-#### Well, it's definitely not polity to swear at anyone, human or robot, Persy will not tolarate that. The program uses the method **contains_profanity** to check if the user uses impolite words to express themselves and choses a random response from the corresponding *output* in the .json file!
+#### Well, it's definitely not polity to swear at anyone, human or robot, Persy will not tolerate that. The program uses the method **contains_profanity** to check if the user uses impolite words to express themselves and choses a random response from the corresponding *output* in the .json file!
 
 
 
