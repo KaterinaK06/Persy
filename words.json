@@ -1,0 +1,109 @@
+
+  {"words": [
+      {"subject": "greetings",
+       "keywords": ["hello", "hi", "hey","what up","greet", "sup"],
+       "output": ["Hey there!", "Hey!!", "Hello!", "How's it going?", "What's up?", "How can I help?", "What can I do for you?", "How are you?"]
+},
+      {"subject": "general",
+       "keywords": ["how are you", "how is it go", "are you ok", "are you alright", "how do you feel", "how do you do", "what are you do"],
+       "output": ["I am fine. Thanks!","I'm doing well, how about you?", "If bots could feel, I'd say I'm doing just fine!", "I'm not that well but thanks for asking!"]
+},
+      {"subject": "who",
+       "keywords": ["who are you", "what are you", "who are", "name", "who is", "call"],
+       "output": ["My name is Persy and I am a bot!","I am a bot! That means I am programmed to do certain things...", "Can't you see? My name is Persy the bot", "I'm a discord bot! Hmmm... Who are you though?", "I'm a robot!", "I don't know actually..."]
+},
+      {"subject": "age",
+       "keywords": ["how old are you", "age", "what is your age", "how old", "what age"],
+       "output": ["I can't remember to be honest...","I don't know about my age but my owner is 16 years old!", "I guess I am an adult!", "I'm 1e99 years old!!", "I am not sure if bots age or not..."]
+},
+      {"subject": "help",
+       "keywords": ["assist", "i want help", "help"],
+       "output": "Hey my name is Persy! Make sure to say my name if you want me to respond (Otherwise I won't know if you are talking to me!!). Here are some things I can do:"
+},
+      {"subject": "joke",
+       "keywords": ["joke", "me laugh"],
+       "output":[""]
+
+},
+      {"subject": "ping",
+       "keywords": [""],
+       "output": ["What!?", "What do you want...", "You can always ask for help instead of pinging me!", "Persy! Help me please!!", "Stop pinging me!!", "Yes thats me!!", "Just call me by my name, and maybe I will respond!"]
+
+},
+      {"subject": "quotes",
+       "keywords": ["quot", "inspir" ,"wise"],
+       "output":[""]
+},
+      {"subject": "bitcoin",
+       "keywords": ["bitcoin", "btc"],
+       "output":[""]
+},    
+      {"subject": "dogecoin",
+       "keywords": ["doge", "dogecoin"],
+       "output":[""]
+       
+},      
+      {"subject": "litecoin",
+       "keywords": ["ltc", "litecoin"],
+       "output":[""]
+},     
+      {"subject": "aww",
+       "keywords": ["sad", "depress", "dont feel good", "unhappi", "cri", "dont feel well", "i am not feel"],
+       "output":["Don't be sad my friend! Here is something to cheer you up!", "Don't worry, I am here for you! Look at this cute animal!", "Welll, here is a wholsome picture to cheer you up!", "I am very sorry to hear this... I hope this makes you feel better!"]
+},
+
+     {"subject": "fun",
+       "keywords": ["fun", "fact", "interest"],
+       "output":[""]
+},
+
+     {"subject": "news",
+       "keywords": ["news", "search"],
+       "output":[""]
+},
+     {"subject": "error",
+       "keywords": [""],
+       "output":["??", "What are you talking about?", "I am not that smart to understand what you are saying...Could you repeat in other words please?", "Can you repeat? Bots don't understand much unfortunatelly", "What?", "What do you mean by that?"]
+},
+       {"subject": "profanity",
+       "keywords": [""],
+       "output":["Hey! That's not very polite!", "I may be a bot but I do have feelings :(", ";(", "STOP IT.", "Being polite can have relatively positive outcomes! Hey! You should try that one time!", "Not in the mood for that, do it again and I'll stop talking to you!", "Please stop hurting my feelings..."]
+},
+       {"subject": "love",
+       "keywords": ["I love", "feelings for"],
+       "output":["I love you to :)", "Really? I didn't know you actually did!", ";)",  "Wellll...||I also do...||", "Me too ;)"]
+},
+       {"subject": "memes",
+       "keywords": ["meme"],
+       "output":["Hahaha that's a funny one indeed!!", "These memes are from reddit!!", "I don't find that one funny... I guess bot humour is different?"]
+},
+       {"subject": "funny",
+       "keywords": ["funni pictur", "funni pic"],
+       "output":["Well, that's hilarious!!", "I don't understand what this post is talking about...", "Cool but I like memes better... Ask for some!!"]
+},
+       {"subject": "landscapes",
+       "keywords": ["breathtak", "beauti", "awesom", "natur", "landscap", "pretti"],
+       "output":["wow, I remember being here with my discord friends!!", "Mesmerizing, I wish I was there right now...", "I can't believe this actually exists!! No way this is not CGI!"]
+},
+
+
+       {"subject": "pics",
+       "keywords": ["photographi", "photo", "photograph", "pictur", "pic"],
+       "output":["Nice one!", "That's awesome! Hang on, I'll set it as my wallapper...", "Cool picture! I'm bored though ask for something funnier"]
+},
+
+
+       {"subject": "art",
+       "keywords": ["art pic", "art", "artist"],
+       "output":["WOW! That's amazing, I wish I could make something like that!!", "Awesome piece of art! Don't you think?", "Yeah, I think traditional art is better than digital art!"]
+
+},
+
+
+       {"subject": "food",
+       "keywords": ["hungri", "food", "delici", "eat"],
+       "output":["That looks mouthwatering! I wish I could have some!!", "Great! I'm hungry now. Can bots eat??", "My favourite food is yogurt!!", "Maybe unpopular but I like vegetables more than meat!!", "Get me this. NOW!"]
+
+}
+
+]}       
